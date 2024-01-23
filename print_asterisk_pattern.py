@@ -5,7 +5,9 @@
 # * *  
 # *
 
-for asterisk in range(6,0,-1):
-    for i in range(asterisk):
-        print(asterisk, end=" ")
+rows = 5
+
+for asterisk in range(rows,0,-1):
+    for i in range(0,asterisk):
+        print("*", end=" ")
     print()
